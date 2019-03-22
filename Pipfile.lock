@@ -1,0 +1,58 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "9b49e5c469ebf45bb6a525708540fdd7365462d32aeba3466fb3abb1fef654c4"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.tuna.tsinghua.edu.cn/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "fastapi": {
+            "hashes": [
+                "sha256:84b0fee0a53adf72af5001511c13d1efbf63ca57132b641f7e69946b1ac17c73",
+                "sha256:f57925d4504802f9bb0697a1d194fb4869defed537fa67b389fecba73d06f155"
+            ],
+            "index": "pypi",
+            "version": "==0.8.0"
+        },
+        "pydantic": {
+            "hashes": [
+                "sha256:9f023811b6cefd203c5fd8fd15a4152f04e79e531b8f676ab1244dfe06ce8024",
+                "sha256:edbb08b561feda505374c0f25e4b54466a0a0c702ed6b2efaabdc3890d1a82e7"
+            ],
+            "version": "==0.18.2"
+        },
+        "starlette": {
+            "hashes": [
+                "sha256:9d48b35d1fc7521d59ae53c421297ab3878d3c7cd4b75266d77f6c73cccb78bb"
+            ],
+            "version": "==0.11.1"
+        }
+    },
+    "develop": {
+        "jedi": {
+            "hashes": [
+                "sha256:2bb0603e3506f708e792c7f4ad8fc2a7a9d9c2d292a358fbbd58da531695595b",
+                "sha256:2c6bcd9545c7d6440951b12b44d373479bf18123a401a52025cf98563fbd826c"
+            ],
+            "index": "pypi",
+            "version": "==0.13.3"
+        },
+        "parso": {
+            "hashes": [
+                "sha256:4580328ae3f548b358f4901e38c0578229186835f0fa0846e47369796dd5bcc9",
+                "sha256:68406ebd7eafe17f8e40e15a84b56848eccbf27d7c1feb89e93d8fca395706db"
+            ],
+            "version": "==0.3.4"
+        }
+    }
+}
